@@ -1,0 +1,43 @@
+/* src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap');
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+#root {
+  @apply h-full;
+  font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom color utilities */
+.text-muted {
+  @apply text-[#94A3B8];
+}
+.bg-primary {
+  @apply bg-[#3B82F6];
+}
+.bg-accent {
+  @apply bg-[#06B6D4];
+}
+.bg-card {
+  @apply bg-[#1E293B];
+}
+
+/* Glass-morphic card utility */
+.glass {
+  @apply bg-card/70 backdrop-blur-xl border border-white/10 rounded-xl;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
