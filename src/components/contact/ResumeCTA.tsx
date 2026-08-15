@@ -1,8 +1,8 @@
 import { Download } from "lucide-react";
 const ResumeCTA = () => {
     return (
-       <section className="mt-20 mb-12">
-            <div className="rounded-3xl border border-slate-700 bg-slate-900/60 p-12 text-center shadow-xl backdrop-blur-sm">
+        <section className="mt-20 mb-12">
+            <div className="rounded-3xl border border-slate-700 bg-slate-900/60 p-6 text-center shadow-xl backdrop-blur-sm sm:p-12">
                 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
                     Ready to Work Together?
                 </p>
@@ -51,4 +51,4 @@ const ResumeCTA = () => {
     );
 };
 
-export default ResumeCTA;
+export default ResumeCTA;
